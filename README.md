@@ -72,7 +72,7 @@ The `xattr` line clears Gatekeeper's quarantine. Or use System Settings → Priv
 
 ## Source
 
-Closed for now. It may open later; until then the author wants to keep control of where it goes. Bugs and ideas are welcome in the [issues](https://github.com/tungusk/ansipants/issues).
+Closed for now. Don't worry, we'll probably open the source some day; until then the author wants to keep control of where it goes. Bugs and ideas are welcome in the [issues](https://github.com/tungusk/ansipants/issues).
 
 ## Author
 
