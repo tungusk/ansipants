@@ -41,7 +41,7 @@ The desktop ANSI editors were built for a mouse and a keyboard, and none of them
 
 ## Terminal editions: download
 
-Current: **ANSIpants16M 2.0.1 (35)** and **ANSIpants16 2.0.1 (33)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places.
+Current: **ANSIpants16M 2.0.1 (36)** and **ANSIpants16 2.0.1 (33)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places.
 
 **Linux**
 
