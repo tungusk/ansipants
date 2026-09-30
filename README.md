@@ -13,7 +13,7 @@
 | Edition | Runs on | Price |
 |---|---|---|
 | **ANSIpants** (the app) | iPhone, iPad and Mac, from the [App Store](https://apps.apple.com/app/id6776519476) | $5.99, one purchase for all three |
-| **ANSIpants16M** | Terminal: Linux x86_64 and ARM64, macOS 12 and up | Free |
+| **ANSIpants16M** | Terminal: Linux x86_64 and ARM64, macOS 10.14.4 and up (Intel) / 11 and up (Apple Silicon) | Free |
 | **ANSIpants16** | Terminal, the limited edition: 16 colours, CP437, `.ANS` | Free |
 | **Browser** | [ansipants.com/web](https://ansipants.com/web/) (16M) and [ansipants.com/16/web](https://ansipants.com/16/web/) | Free, works offline |
 
@@ -41,7 +41,7 @@ The desktop ANSI editors were built for a mouse and a keyboard, and none of them
 
 ## Terminal editions: download
 
-Current: **ANSIpants16M 2.0.1 (38)** and **ANSIpants16 2.0.1 (34)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places.
+Current: **ANSIpants16M 2.0.1 (39)** and **ANSIpants16 2.0.1 (35)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places.
 
 **Linux**
 
@@ -62,7 +62,7 @@ tar -xzf ansipants16m-macos*.tar.gz
 ansipants
 ```
 
-The `xattr` line clears Gatekeeper's quarantine. Or use System Settings → Privacy & Security → Open Anyway. Needs macOS 12 or later. The universal tarball also runs on Intel Macs.
+The `xattr` line clears Gatekeeper's quarantine. Or use System Settings → Privacy & Security → Open Anyway. Needs macOS 11 or later on Apple Silicon; the universal tarball also runs on Intel Macs, 10.14.4 or later.
 
 ## Formats
 
