@@ -76,9 +76,13 @@ Click `?` in the top bar at any time for a quick sheet of keys and mouse actions
 
 A short built-in tutorial walks through the ideas behind the editor in nine pages: why characters aren't square, the three parts of every cell, the tools, color depth, layers and presets, SAUCE, and saving. Click `?` in the top bar and choose **tutorial** at the foot of the key sheet. Arrow keys, Enter or Space turn the pages, and Esc closes it.
 
+<img src="media/manual/tutorial.png" alt="The first page of the built-in tutorial" width="100%">
+
 ## The screen
 
 The canvas sits in the middle. The tools are down the left, the file controls along the top, and the colors and presets along the bottom. **Hover over anything and the status row names it**, so when in doubt, point at it.
+
+<img src="media/manual/screen.png" alt="ANSIpants16M in the browser: the tool list and options down the left, the canvas, the color bar and preset strip along the bottom, the status row" width="100%">
 
 - **Top bar.** The ANSIpants title (click it for the About window), your file's name (click to rename it), and buttons for undo, redo, save (✓), clear, open, layers, canvas size and color depth.
 - **Sidebar.** The tool list, then the current tool's options under it: brush size, line style, fill settings and so on. **Click the selected tool a second time** to open a panel with the rest of its options. The mirror switch sits at the bottom.
@@ -95,6 +99,8 @@ In a small window (80×25 or so), ANSIpants goes compact: the status row and som
 
 **On a big window,** 16M switches to a doubled layout on its own: a wider sidebar, a taller color bar with full-size preset chips, and every panel and menu drawn at twice the size. It happens when the terminal is around 220 columns by 90 rows or more, which is what you get by zooming a terminal out, or by making the browser window large. The drawing itself stays one cell per cell, so a big window shows more of your art, not bigger art. Nothing to switch on; make the window smaller and it goes back.
 
+<img src="media/manual/screen-2x.png" alt="The doubled layout on a big window" width="100%">
+
 ## Colors
 
 Every cell has two colors: the **foreground** (the character's own color) and the **background** (the color behind it). A full block `█` shows only its foreground. A space shows only its background.
@@ -106,6 +112,8 @@ Every cell has two colors: the **foreground** (the character's own color) and th
 - **Right-click on the canvas** to paint with the two swapped for that stroke. It's the quick way to lay down background color.
 - At 256 colors and above, the picker opens with sliders for red, green, blue and brightness. Click a number to type an exact value.
 - The Panspect tool eyedrops: click a cell to take its colors.
+
+<img src="media/manual/color-bar.png" alt="The color bar: foreground and background squares, the 16 base colors, the 256-color cube and greys, and the mode buttons for each channel" width="100%">
 
 ### Null: leave it alone (ø)
 
@@ -138,9 +146,13 @@ Narrowing the depth doesn't change what you've drawn. New colors are kept inside
 
 The same menu holds the **character set** (Unicode, the original PC set CP437, or plain ASCII) and **blinking text**. Classic PCs used one bit for either a bright background or a blinking foreground, never both. Turn blinking on, and the foreground can flash, but backgrounds are limited to the 8 darker colors.
 
+<img src="media/manual/depth-menu.png" alt="The color depth menu: 1, 16, 256, 16M, then Unicode, CP437, ASCII" width="100%">
+
 ## Tools
 
 16M has 17 tools. Click a tool to pick it, and click it again for its full options.
+
+<img src="media/manual/tool-panel.png" alt="The Box tool's options panel, opened by clicking the selected tool again" width="100%">
 
 | Tool | What it does |
 | --- | --- |
@@ -188,6 +200,8 @@ The arrow keys move a cursor on the canvas. Press Space to put the pen down and 
 
 The character button in the sidebar opens the picker. It shows the glyphs of your document's character set: the full Unicode range, the original PC set (CP437), or plain ASCII. Blocks (`█▓▒░▀▄▌▐`) and box-drawing lines are the classic building materials.
 
+<img src="media/manual/char-picker.png" alt="The character picker showing the CP437 set" width="100%">
+
 The **F-key banks** keep ten glyphs at your fingertips. With the Text tool, F1–F10 stamp the current bank's glyphs, and F11 and F12 switch banks.
 
 ### Layers
@@ -198,6 +212,8 @@ The layers button in the top bar opens the stack. A drawing can have up to 7 lay
 - **Where you see through.** A blank cell (a space on black) is see-through, and shows the layers below. Anything else covers them, including a space on any other color.
 - **Shift** moves a whole layer: turn it on, then use the arrow keys to nudge the layer, or drag it on the canvas. Press 0 to put it back.
 - **Flatten** merges every visible layer into one (undoable).
+
+<img src="media/manual/layers.png" alt="The layers panel" width="100%">
 
 Layers are saved only in the `.ansipants` format. Saving as `.ans` writes the flattened picture.
 
@@ -229,6 +245,8 @@ Click the ✓ in the top bar to save. Click the filename first to rename the dra
 
 The extra files are set in the save options: click the ✓ after a save to open them. Ctrl-E exports a PNG at any time.
 
+<img src="media/manual/save-options.png" alt="The save options: the filename, the formats to write, SAUCE" width="100%">
+
 **In the browser,** saving can also download the file to your computer. If you've asked for extra files, they come together in one zip. Your files are also kept inside the browser; the open button lists them, with a `−` to delete any you don't need.
 
 ### Opening
@@ -238,6 +256,8 @@ The open button lists `.ans` and `.ansipants` files. In the browser, the upload 
 ### Importing a picture
 
 The picture button in the top bar turns a photo or drawing into text art. It lists your pictures newest first with the latest one already selected, so the file you just added is at the top. One click selects a picture, and a double-click, Enter, or the **import ›** button opens it. In the browser, **import from your computer…** adds a picture from your disk first.
+
+<img src="media/manual/importer.png" alt="The importer's picture list with the newest picture selected and the import button" width="100%">
 
 The picture appears over the canvas as a live preview, and a panel of styles and sliders shapes it:
 
@@ -250,6 +270,8 @@ The picture appears over the canvas as a live preview, and a panel of styles and
 
 Size runs from 10% to 400%, and Brightness, Contrast and Saturation do what they say. Lines adds an Edge slider and Ink a Weight slider. Drag the preview to move it around the canvas. Styles your document can't show, such as Quad in an ASCII document, are greyed with a reason when you hover. **Apply** (or Enter) places the result on the canvas; **Cancel** (or Esc) leaves it as it was.
 
+<img src="media/manual/importer-preview.png" alt="The importer's live preview over the canvas, with the style rows and sliders in its panel" width="100%">
+
 ### SAUCE: your name on your art
 
 A `.ans` file ends with a small hidden record called SAUCE, a standard from 1994. It holds the title, the artist, the group, the date, and how the art should be displayed (its width and font). Viewers read it, and art collections use it to credit the artist.
@@ -260,6 +282,8 @@ A `.ans` file ends with a small hidden record called SAUCE, a standard from 1994
 ## Keys and shortcuts
 
 Click `?` in the top bar for this list on screen, and for the tutorial.
+
+<img src="media/manual/help.png" alt="The ? key sheet with the tutorial row at its foot" width="100%">
 
 | Key | What it does |
 | --- | --- |
