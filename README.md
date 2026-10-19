@@ -10,7 +10,7 @@
 
 ## Terminal editions: download
 
-Current: **ANSIpants16M 2.0.2 (42)** and **ANSIpants16 2.0.2 (37)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places. Install notes are under Getting started below; on macOS, clear Gatekeeper's quarantine first with `xattr -d com.apple.quarantine ansipants16m-macos*.tar.gz`, or use System Settings → Privacy & Security → Open Anyway.
+Current: **ANSIpants16M 2.0.2 (43)** and **ANSIpants16 2.0.2 (37)**. The tarballs are attached to the [latest release](https://github.com/tungusk/ansipants/releases/latest) and served from [ansipants.com](https://ansipants.com/#download); the checksums are the same in both places. Install notes are under Getting started below; on macOS, clear Gatekeeper's quarantine first with `xattr -d com.apple.quarantine ansipants16m-macos*.tar.gz`, or use System Settings → Privacy & Security → Open Anyway.
 
 | | |
 |---|---|
